@@ -1,0 +1,7 @@
+g90 g01
+upr=85 f3500 FXS[UPR]=0
+m00
+upr=-9 f3000 FXS[UPR]=1 FXST[UPR]=20
+
+m17
+

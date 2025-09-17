@@ -1,0 +1,28 @@
+
+
+G2 X=76.5749 Y=-23.1579 CR=80 RND=15; pocetak
+G3 X=58.3428 Y=-54.7368 CR=25 RND=15;prvi radijus 25 
+G2 X=18.2321 Y=-77.8947 CR=80 RND=15;do drugog radijusa 
+G3 X=-18.2321 Y=-77.8947 CR=25 RND=15; drugi radijus
+G2 X=-58.3428 Y=-54.7368 CR=80 RND=15;do trećeg radijusa
+G3 X=-76.5749 Y=-23.1579 CR=25 RND=15;treci radijus
+G2 X=-76.5749 Y=23.1579 CR=80 RND=15;do cetvrtog radijusa
+G3 X=-58.3428 Y=54.7368 CR=25 RND=15;cetvrti radijus
+G2 X=-18.2321 Y=77.8947 CR=80 RND=15; do petog radijusa
+G3 X=18.2321 Y=77.8947 CR=25 RND=15 ; peti radijus
+G2 X=58.3428 Y=54.7368 CR=80 RND=15 ; do sestog radijusa
+G3 X=76.5749 Y=23.1579 CR=25 RND=15 ;sesti radijus 
+G2 X=80 Y=0 CR=80 ; zatvaramo krug
+
+
+RET
+
+G1 X=100 Y=0 
+X=100 Y=-100 RND=20
+X=0 Y=-100 
+X=-100 Y=-100 RND=20
+X=-100 Y=0
+X=-100 Y=100 RND=20
+X=0 Y=100 
+X=100 Y=100 RND=20
+
